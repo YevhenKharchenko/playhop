@@ -1,13 +1,20 @@
 .reviews-section {
-  padding-bottom: 80px;
+  padding-bottom: 173px;
 
   @include media(desktop) {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
     padding-bottom: 120px;
   }
 }
 
 .reviews-container {
   padding: 0;
+
+  @include media(desktop) {
+    padding: 0 180px;
+  }
 }
 
 .reviews-title-wrapper {
@@ -15,8 +22,20 @@
   left: 50px;
 }
 
+.reviews-content-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+}
+
 .reviews-bg-img {
   margin-bottom: 24px;
+
+  @include media(desktop) {
+    margin-bottom: 0;
+  }
 }
 
 .reviews-box-wrapper {
@@ -24,6 +43,11 @@
   max-width: 336px;
   margin-left: auto;
   margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 77px;
+    max-width: 552px;
+  }
 }
 
 .reviews-list {
@@ -42,11 +66,6 @@
   gap: 8px;
   padding: 16px;
   cursor: pointer;
-
-  @include media(desktop) {
-    max-width: 344px;
-    width: 344px;
-  }
 }
 
 .reviews-list-item.active {
@@ -60,10 +79,6 @@
   color: #222;
   line-height: 1.5;
   margin-bottom: 8px;
-
-  @include media(desktop) {
-    font-size: 20px;
-  }
 }
 
 .reviews-text {
@@ -90,6 +105,13 @@
   height: 130px;
   box-shadow: 0 4px 10px 0 rgba(107, 107, 107, 0.25);
   background: rgba(255, 255, 255, 0.8);
+
+  @include media(desktop) {
+    top: 102px;
+    left: 13px;
+    width: 526px;
+    height: 130px;
+  }
 }
 
 .reviews-box-2 {
@@ -104,6 +126,13 @@
   height: 130px;
   box-shadow: 0 4px 10px 0 rgba(107, 107, 107, 0.25);
   background: rgba(255, 255, 255, 0.7);
+
+  @include media(desktop) {
+    top: 127px;
+    left: 24px;
+    width: 504px;
+    height: 130px;
+  }
 }
 
 .reviews-box-3 {
@@ -118,6 +147,13 @@
   height: 130px;
   box-shadow: 0 4px 10px 0 rgba(107, 107, 107, 0.25);
   background: rgba(255, 255, 255, 0.6);
+
+  @include media(desktop) {
+    top: 152px;
+    left: 36px;
+    width: 480px;
+    height: 130px;
+  }
 }
 
 .reviews-box-4 {
@@ -132,4 +168,22 @@
   height: 130px;
   box-shadow: 0 4px 10px 0 rgba(107, 107, 107, 0.25);
   background: rgba(255, 255, 255, 0.5);
+
+  @include media(desktop) {
+    top: 177px;
+    left: 51px;
+    width: 450px;
+    height: 130px;
+  }
+}
+
+.reviews-blue-cube-img {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    top: -54px;
+    left: 0;
+  }
 }
