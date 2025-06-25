@@ -1,0 +1,26 @@
+.gallery-section {
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+    padding-bottom: 120px;
+  }
+}
+
+.gallery-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+}
+
+.gallery-list-item {
+  @include media(desktop) {
+  }
+}

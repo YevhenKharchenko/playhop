@@ -1,0 +1,84 @@
+.header {
+  background: transparent;
+  padding-top: 20px;
+  padding-bottom: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+
+  @include media(desktop) {
+    background: #0c2f54;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.nav {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media(desktop) {
+  }
+}
+
+.header-logo {
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.nav-list {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    width: 100%;
+  }
+}
+
+.nav-list-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-list-link.active {
+  font-weight: 700;
+}
+
+.header-google-btn {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+  }
+}
+
+.nav-btn {
+  box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.menu-icon {
+  stroke: #000;
+}
+
+.menu-icon-scrolled {
+}
