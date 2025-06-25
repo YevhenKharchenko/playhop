@@ -52,6 +52,6 @@ export default defineConfig(({ command }) => {
         },
       },
     },
-    base: '/oink-games',
+    base: '/playhop',
   };
 });

@@ -8,25 +8,19 @@
   z-index: 10;
 
   @include media(desktop) {
-    background: #0c2f54;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background: #46d246;
+    padding-top: 19px;
+    padding-bottom: 19px;
   }
 }
 
 .nav {
   background: transparent;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
 
   @include media(desktop) {
-  }
-}
-
-.header-logo {
-  @include media(desktop) {
-    display: none;
   }
 }
 
@@ -35,6 +29,7 @@
 
   @include media(desktop) {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 38px;
     width: 100%;
@@ -44,13 +39,14 @@
 .nav-list-link {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  color: #222;
   transition: all 0.3s ease-in-out;
 }
 
 .nav-list-link.active {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .header-google-btn {
