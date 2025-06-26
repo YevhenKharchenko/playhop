@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.714" d="M9.714 23.429 23.428 9.715m.001 13.714L9.715 9.715"/>
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-width="2.286" d="M4.429 9.571h23.143M4.429 16h23.143M4.429 22.429h23.143"/>
+    </symbol>
+    <symbol id="icon-minus" viewBox="0 0 31 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width=".941" d="M7.843 16.18h15.686"/>
+    </symbol>
+    <symbol id="icon-plus" viewBox="0 0 31 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.255" d="M7.843 16.18h15.686m-7.843 7.843V8.337"/>
+    </symbol>
+  </defs>
+</svg>
