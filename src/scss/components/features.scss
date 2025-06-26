@@ -1,6 +1,7 @@
 .features-section {
   padding-top: 33px;
   padding-bottom: 80px;
+  scroll-margin-top: 50px;
 
   @include media(desktop) {
     max-width: 1440px;

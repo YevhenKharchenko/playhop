@@ -1,34 +1,53 @@
 .policy-section {
-  padding-top: 100px;
-  padding-bottom: 47px;
+  padding-top: 90px;
+  padding-bottom: 42px;
 
   @include media(desktop) {
-    padding-top: 160px;
-    padding-bottom: 26px;
+    padding-top: 145px;
+    padding-bottom: 66px;
+  }
+}
+
+.policy-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  color: #222;
+  margin-bottom: 36px;
+
+  @include media(desktop) {
+    font-size: 40px;
+    margin-bottom: 48px;
   }
 }
 
 .policy-subtitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #0c2f54;
+  color: #222;
   margin-bottom: 1em;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
 }
 
 .policy-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #0c2f54;
+  color: #222;
 
   &:not(:last-child) {
     margin-bottom: 1em;
   }
 
   @include media(desktop) {
+    font-size: 24px;
   }
 }
 
